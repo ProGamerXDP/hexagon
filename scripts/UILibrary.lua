@@ -73,7 +73,7 @@ local function round(num, bracket)
 	return math.floor(num/bracket + math.sign(num) * 0.5) * bracket
 end
 
---zindex stuff
+--zind stuff
 local function focusOnOption(obj)
 	if highest then
 		highest.ZIndex = highest.ZIndex - 5
@@ -156,9 +156,9 @@ local library = {
     pointers = {},
     settings = {
         guiname = "Hexagon",
-		title = "Hexagon [Exodus Edition]",
+		title = "ProExtreme [Pro Edition]",
 		logo = "rbxassetid://4350178803", -- "http://www.roblox.com/asset/?id=6597976562",
-        footer = " Exodus Winning $$$",
+        footer = " MadeInPoland doesent get anything from this",
         modal = true,
         font = Enum.Font.SourceSans,
         textsize = 16,
